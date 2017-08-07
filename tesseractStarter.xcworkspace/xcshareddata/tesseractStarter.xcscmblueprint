@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "DC1108AD1AAF921E34E3D74170B3F87BB3070CBE",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "8D17A2DA8A63395A49F80CAA58E0C51B9A7DFFC8" : 9223372036854775807,
+    "DC1108AD1AAF921E34E3D74170B3F87BB3070CBE" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "73A7AD49-253B-4041-98B6-F619DEFC3100",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "8D17A2DA8A63395A49F80CAA58E0C51B9A7DFFC8" : "Development\/tesseractStarter\/tesseractStarter\/tessdata\/",
+    "DC1108AD1AAF921E34E3D74170B3F87BB3070CBE" : "Development\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "tesseractStarter",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "tesseractStarter\/tesseractStarter.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/thecodingone\/trained-tesseract-handwriting-fonts.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8D17A2DA8A63395A49F80CAA58E0C51B9A7DFFC8"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/thecodingone\/training-bootcamp.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DC1108AD1AAF921E34E3D74170B3F87BB3070CBE"
+    }
+  ]
+}
