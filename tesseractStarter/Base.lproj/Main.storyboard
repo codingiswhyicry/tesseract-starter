@@ -7,12 +7,6 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.16"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
-    <customFonts key="customFonts">
-        <array key="AvenirNext.ttc">
-            <string>AvenirNext-Medium</string>
-            <string>AvenirNext-UltraLight</string>
-        </array>
-    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -26,53 +20,144 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="4K2-OP-wBk">
-                                <rect key="frame" x="18" y="554" width="337" height="93"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lIO-SU-xhc">
+                                <rect key="frame" x="16" y="28" width="343" height="271"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="17"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Phn-zh-y6b">
-                                <rect key="frame" x="19" y="491" width="162" height="55"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vvk-mc-FlN">
+                                <rect key="frame" x="16" y="387" width="156" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.52722648790000004" green="0.57710968399999996" blue="0.6901861252" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <fontDescription key="fontDescription" name="AvenirNext-UltraLight" family="Avenir Next" pointSize="30"/>
-                                <state key="normal" title="start scan">
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.2784313725" blue="0.2274509804" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="image 1">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="startAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="g6o-5G-fB7"/>
+                                    <action selector="imageOneAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MqV-AR-K86"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xqF-JA-k8W">
-                                <rect key="frame" x="193" y="492" width="162" height="54"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m3e-4v-EpO">
+                                <rect key="frame" x="16" y="443" width="156" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.52722648790000004" green="0.57710968399999996" blue="0.6901861252" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <fontDescription key="fontDescription" name="AvenirNext-UltraLight" family="Avenir Next" pointSize="30"/>
-                                <state key="normal" title="stop scan">
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.2784313725" blue="0.2274509804" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="image 3">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="stopAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="u0o-91-Vk0"/>
+                                    <action selector="imageThreeAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yDP-nZ-TVd"/>
                                 </connections>
                             </button>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6Nl-QA-RND">
-                                <rect key="frame" x="19" y="92" width="336" height="377"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SDn-9K-vIk">
+                                <rect key="frame" x="16" y="499" width="156" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </view>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.2784313725" blue="0.2274509804" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="image 5">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="imageFiveAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oxk-sJ-xY1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XdJ-8g-eUc">
+                                <rect key="frame" x="16" y="555" width="156" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.2784313725" blue="0.2274509804" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="image 7">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="imageSevenAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Jl6-qs-Z16"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0x5-9q-DvR">
+                                <rect key="frame" x="16" y="611" width="156" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.2784313725" blue="0.2274509804" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="image 9">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="imageNineAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6aA-y2-zhL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DVt-mm-Ecz">
+                                <rect key="frame" x="203" y="387" width="156" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.2784313725" blue="0.2274509804" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="image 2">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="imageTwoAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Xke-ef-ZM8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xri-MM-YcZ">
+                                <rect key="frame" x="203" y="443" width="156" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.2784313725" blue="0.2274509804" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="image 4">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="imageFourAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qzR-vO-g8l"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n4z-dZ-lEz">
+                                <rect key="frame" x="203" y="499" width="156" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.2784313725" blue="0.2274509804" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="image 6">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="imageSixAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="490-tC-S7t"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a61-VN-ChY">
+                                <rect key="frame" x="203" y="555" width="156" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.2784313725" blue="0.2274509804" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="image 8">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="imageEightAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Mc6-Go-9OJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3lb-GG-0JU">
+                                <rect key="frame" x="203" y="611" width="156" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.2784313725" blue="0.2274509804" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="image 10">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="imageTenAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0Qt-mN-71a"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="recongized text will show up here" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aQJ-Qo-a45">
+                                <rect key="frame" x="16" y="314" width="343" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.93725490199999995" green="0.2784313725" blue="0.2274509804" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <outlet property="captureView" destination="6Nl-QA-RND" id="ata-Oa-zed"/>
-                        <outlet property="startScan" destination="Phn-zh-y6b" id="luO-Uc-5gL"/>
-                        <outlet property="stopScan" destination="xqF-JA-k8W" id="HYD-d4-IiO"/>
-                        <outlet property="textView" destination="4K2-OP-wBk" id="tqu-u8-TGX"/>
+                        <outlet property="image1" destination="vvk-mc-FlN" id="4Eb-F3-PXW"/>
+                        <outlet property="image10" destination="3lb-GG-0JU" id="k5q-iI-98Y"/>
+                        <outlet property="image2" destination="DVt-mm-Ecz" id="i4G-Cw-Y1A"/>
+                        <outlet property="image3" destination="m3e-4v-EpO" id="KpH-Gc-yJ8"/>
+                        <outlet property="image4" destination="xri-MM-YcZ" id="YJ0-tA-Xj0"/>
+                        <outlet property="image5" destination="SDn-9K-vIk" id="PsG-in-tkb"/>
+                        <outlet property="image6" destination="n4z-dZ-lEz" id="iUC-fB-ki0"/>
+                        <outlet property="image7" destination="XdJ-8g-eUc" id="H4y-H8-ra1"/>
+                        <outlet property="image8" destination="a61-VN-ChY" id="E6g-g9-cNg"/>
+                        <outlet property="image9" destination="0x5-9q-DvR" id="OLE-el-neo"/>
+                        <outlet property="imageView" destination="lIO-SU-xhc" id="62O-rY-3lC"/>
+                        <outlet property="textLabel" destination="aQJ-Qo-a45" id="Xek-c4-uv2"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
