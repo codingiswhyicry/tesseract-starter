@@ -15,6 +15,8 @@
 		9C5EEB041F380F860080D410 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C5EEB021F380F860080D410 /* Main.storyboard */; };
 		9C5EEB061F380F860080D410 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C5EEB051F380F860080D410 /* Assets.xcassets */; };
 		9C5EEB091F380F860080D410 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C5EEB071F380F860080D410 /* LaunchScreen.storyboard */; };
+		9C6192531F43910200E78B38 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C6192521F4390D800E78B38 /* CoreImage.framework */; };
+		9C6192541F43910A00E78B38 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C6192511F4390D100E78B38 /* libstdc++.6.0.9.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		9C5EEB051F380F860080D410 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C5EEB081F380F860080D410 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C5EEB0A1F380F860080D410 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C6192511F4390D100E78B38 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		9C6192521F4390D800E78B38 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +41,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C6192541F43910A00E78B38 /* libstdc++.6.0.9.tbd in Frameworks */,
+				9C6192531F43910200E78B38 /* CoreImage.framework in Frameworks */,
 				9C5209281F38175500A6B8D3 /* libz.tbd in Frameworks */,
 				57F9D099F2E89F07B1A4CBC4 /* Pods_tesseractStarter.framework in Frameworks */,
 			);
@@ -57,6 +63,8 @@
 		6E2F636A2C9DE50B3FC8778F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9C6192521F4390D800E78B38 /* CoreImage.framework */,
+				9C6192511F4390D100E78B38 /* libstdc++.6.0.9.tbd */,
 				9C5209271F38174000A6B8D3 /* libz.tbd */,
 				031F7E8B3114358C07908D5A /* Pods_tesseractStarter.framework */,
 			);
